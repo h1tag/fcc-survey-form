@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FCC Survey Form</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic" rel="stylesheet"> 
+</head>
+<body>
+<div class="container-1">
+  <div class="container-2">
+
+
+  <h1>FCC Survey Form</h1>
+
+  <p id="description">A survey form for fcc.</p>
+
+  <form id="survey-form" action="index.html" method="post">
+    <div class="">
+    <label id="name-label" for="name">Name:</label>
+    <input id="name" type="text" name="name" placeholder="enter your name here"><br>
+
+    <label id="email-label" for="email">Email:</label>
+    <input id="email" type="email" name="email" placeholder="enter your email here"><br>
+
+    <label id="number-label" for="number">Age:</label>
+    <input id="number" type="number" name="age" placeholder="enter your age here"><br>
+
+    <label>Which option best describes your current role?</label><br>
+    <select id="dropdown" class="" name="">
+       <option value="student">Student</option>
+       <option value="worker">Worker</option>
+       <option value="other">Other</option>
+    </select><br>
+
+    <label for="">How likely is that you would recommend freeCodeCamp to a friend?</label><br>
+    <input type="radio" name="radio" value="definitely" checked> Definitely<br>
+    <input type="radio" name="radio" value="maybe"> Maybe<br>
+    <input type="radio" name="radio" value="not-sure"> Not sure <br>
+
+    <label for="">Things that should be improved in the future
+(Check all that apply): </label> <br>
+    <input type="checkbox" name="opt1" value="front-end"> Front-End projects<br>
+    <input type="checkbox" name="opt2" value="back-End"> Back-End projects <br>
+
+    <label for="">Enter your comments here:</label> <br>
+    <textarea name="textarea" rows="8" cols="80"></textarea><br>
+
+    <input id="submit" type="submit" value="submit">
+  </div>
+  </form>
+</div>
+</div>
+</body>
+</html>
